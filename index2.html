@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- 
+File: lib.php
+Purpose: Set of variables and functions used by multiple scripts (library)
+To do's: Nothing (you may add/modify items if you'd like though)
+-->
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />    
+
+<!--<link rel="stylesheet" type="text/css" href="style.css" />-->
+	<link href="index_layout.css" rel="stylesheet" type="text/css" />
+	<!--<link href="index_photostyle.css" rel="stylesheet" type="text/css" />-->
+	<link href="index_text.css" rel="stylesheet" type="text/css" />
+
+<!-- INCLUDE STYLE .css -->
+
+<head>
+<title>Project</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+.navbar {
+	margin-bottom: 50px;
+	border-radius: 0;
+}
+
+/* Remove the jumbotron's default bottom margin */ 
+.jumbotron {
+	min-height: 500px;
+	background-image:url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+position: center;
+	  margin-bottom: 0;
+	  /*-webkit-transform: scaleX(-1);
+transform: scaleX(-1);*/ 	
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+	background-color: #f2f2f2;
+padding: 25px;
+}
+
+#jumboHeader {
+color: black;
+display: block;
+	 font-weight: bold;
+	 font-size: 68px;
+}
+</style>
+</head>
+<body>
+
+<div class="jumbotron">
+<div class="container text-center">
+<h1 id="jumboHeader">Weather</h1>      
+</div>
+</div>
+
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>                        
+</button>
+
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav">
+<li><a class="navbar-brand" href="shop.php"></a></li>
+<li><a class="navbar-brand" href="contact.php"></a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+</ul>
+</div>
+</div>
+</nav>
+<center>
+<!--<div id="myBtnContainer">
+<button class="btn active" onclick ="filterSelection('all')">Show all </button>
+<button class ="btn" onclick= "filterSelection('Marvel')">Marvel</button>
+<button class ="btn" onclick= "filterSelection('DC')">DC</button>
+<button class ="btn" onclick= "filterSelection('Dark Horse')">Dark Horse</button>
+</div>--></center><br>
+<br>
+<!-- *************************************************************************************************************************************** -->
+<!-- ************************************************  product display     ***************************************************************** -->
+
+
+<!--<script>
+
+
+function myFunction(){
+
+}
+</script>-->
+
+</div>
+</div>
+
+
+</div>
+</div>
+
+</div>
+
+<h1> </h1>
+
+<DIV ID = "innerDiv" STYLE="
+   
+	background-color: #ffffff;
+	border-bottom: 4px solid #000000;
+	border-top: 4px solid #000000;
+	border-left: 4px solid #000000;
+	border-right: 4px solid #000000;
+	padding: 8px 10px 8px 10px;
+	width:85%;">
+
+	<form action="/action_page.php">
+     <p>     
+     <div class="form-group">
+        <label for="humidity">Humidity:</label>
+        <input type="humidity" class="form-control" id="humidity">
+      </div>
+      </p>
+      <p>     
+      <div class="form-group">
+        <label for="solar">Solar:</label>
+        <input type="solar" class="form-control" id="solar">
+      </div>
+      </p>
+     <p>     
+      <div class="form-group">
+        <label for="temp">Temperature:</label>
+        <input type="temperature" class="form-control" id="tmp">
+      </div>
+      </p>
+      <p>     
+      <div class="form-group">
+        <label for="wind">Wind:</label>
+        <input type="wind" class="form-control" id="wind">
+       </div>
+      </p>
+     
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form> 
+         </DIV>
+
+<br><br>
+
+		<footer class="container-fluid text-center">
+		</footer>
+		</body>
+		</html>
+</body>
+
+</html>
