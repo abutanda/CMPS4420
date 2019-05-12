@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Project </title>
+<style type=text/css>
+body{ margin : 5% 5% 5% 5%; }
+</style>
+</head>
+
+
+<body onLoad="window.document.bgColor='#ccccff'">
+ background-image: url("bg.jpg");
+<h1> Weather </h1>
+<DIV ID = "innerDiv" STYLE="
+   
+	background-color: #ffffff;
+	border-bottom: 4px solid #000000;
+	border-top: 4px solid #000000;
+	border-left: 4px solid #000000;
+	border-right: 4px solid #000000;
+	padding: 8px 10px 8px 10px;
+	width:85%;">
+	<form action="/action_page.php">
+     <p>     
+     <div class="form-group">
+        <label for="humidity">Humidity:</label>
+        <input type="humidity" class="form-control" id="humidity">
+      </div>
+      </p>
+      <p>     
+      <div class="form-group">
+        <label for="solar">Solar:</label>
+        <input type="solar" class="form-control" id="solar">
+      </div>
+      </p>
+     <p>     
+      <div class="form-group">
+        <label for="temp">Temperature:</label>
+        <input type="temperature" class="form-control" id="tmp">
+      </div>
+      </p>
+      <p>     
+      <div class="form-group">
+        <label for="wind">Wind:</label>
+        <input type="wind" class="form-control" id="wind">
+       </div>
+      </p>
+     
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form> 
+         </DIV>
+
+</body>
+</html>
